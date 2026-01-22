@@ -77,35 +77,36 @@ export default function Hero({
 
 
           {/* CTA BUTTONS */}
-          <div className="flex flex-wrap gap-4">
-            <button
-              onClick={onAI}
-              className="px-6 py-3 rounded-md bg-black text-white text-base font-medium hover:bg-slate-800 transition"
-            >
-              🤖 Talk to the AI Assistant
-            </button>
+         <div className="flex flex-wrap gap-4">
+  <button
+    onClick={onAI}
+    className="px-6 py-3 rounded-md bg-black text-white text-base font-medium hover:bg-slate-800 transition"
+  >
+    🤖 See the AI Answer a Customer
+  </button>
 
-            <button
-              onClick={onForm}
-              className="px-6 py-3 rounded-md border border-slate-300 text-base font-medium hover:bg-slate-100 transition"
-            >
-              📝 Get a Fast Quote
-            </button>
+  <button
+    onClick={onForm}
+    className="px-6 py-3 rounded-md border border-slate-300 text-base font-medium hover:bg-slate-100 transition"
+  >
+    📝 See How Leads Are Captured
+  </button>
 
-            <button
-              onClick={onCalendar}
-              className="px-6 py-3 text-base font-medium text-blue-600 hover:underline"
-            >
-              📅 Book a Free Consultation
-            </button>
+  <button
+    onClick={onCalendar}
+    className="px-6 py-3 text-base font-medium text-blue-600 hover:underline"
+  >
+    📅 See the Booking Workflow
+  </button>
 
-            <Link
-  to="/example-site"
-  className="px-6 py-3 text-base font-medium text-slate-700 hover:underline"
->
-  👀 View Example Website
-</Link>
-          </div>
+  <Link
+    to="/example-site"
+    className="px-6 py-3 text-base font-medium text-slate-700 hover:underline"
+  >
+    👀 View a Typical Service Website
+  </Link>
+</div>
+
         </div>
 
         {/* RIGHT SIDE – AI SYSTEM PREVIEW */}
