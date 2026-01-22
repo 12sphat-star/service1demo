@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type HeroProps = {
   businessType: string;
   city: string;
@@ -55,12 +57,12 @@ export default function Hero({
               📅 Book a Free Consultation
             </button>
 
-            <a
-              href="/example-site"
-              className="px-6 py-3 text-base font-medium text-slate-700 hover:underline"
-            >
-              👀 View Example Website
-            </a>
+            <Link
+  to="/example-site"
+  className="px-6 py-3 text-base font-medium text-slate-700 hover:underline"
+>
+  👀 View Example Website
+</Link>
           </div>
         </div>
 
