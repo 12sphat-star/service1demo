@@ -16,8 +16,8 @@ export default function Hero({
   return (
     <section className="relative bg-white">
       <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        
-        {/* LEFT SIDE: COPY */}
+
+        {/* LEFT SIDE */}
         <div>
           <span className="inline-block mb-4 text-sm font-semibold text-blue-600 uppercase tracking-wide">
             AI-Powered Service Business Website
@@ -28,8 +28,8 @@ export default function Hero({
           </h1>
 
           <p className="text-xl text-slate-600 mb-10 max-w-xl">
-            This system helps service businesses in {city} capture more leads,
-            answer customers instantly, and book jobs automatically — powered by AI.
+            Capture more leads, answer customers instantly, and book jobs
+            automatically across {city} — powered by AI.
           </p>
 
           {/* CTA BUTTONS */}
@@ -64,16 +64,48 @@ export default function Hero({
           </div>
         </div>
 
-        {/* RIGHT SIDE: VISUAL PLACEHOLDER */}
+        {/* RIGHT SIDE – AI SYSTEM PREVIEW */}
         <div className="relative">
-          <div className="rounded-xl border border-slate-200 shadow-lg bg-slate-50 p-6">
-            <div className="space-y-4">
-              <div className="h-4 w-1/3 bg-slate-300 rounded"></div>
-              <div className="h-4 w-2/3 bg-slate-300 rounded"></div>
-              <div className="h-24 bg-white rounded-lg shadow-inner flex items-center justify-center text-slate-500">
-                AI Chat • Lead Captured • Booking Confirmed
+          <div className="rounded-xl border border-slate-200 shadow-xl bg-white overflow-hidden">
+
+            <div className="bg-slate-900 text-white px-5 py-3 text-sm font-medium">
+              AI Front Desk – Live Preview
+            </div>
+
+            <div className="p-5 space-y-4 text-sm">
+              <div>
+                <p className="font-semibold">Incoming Customer</p>
+                <p className="text-slate-600">
+                  “Hi, I need service today. Do you cover Hampton Roads?”
+                </p>
+              </div>
+
+              <div>
+                <p className="font-semibold">AI Responds Instantly</p>
+                <p className="text-slate-600">
+                  “Yes! Can I get your name and best number?”
+                </p>
+              </div>
+
+              <div>
+                <p className="font-semibold">Lead Captured</p>
+                <p className="text-slate-600">
+                  Customer info saved automatically.
+                </p>
+              </div>
+
+              <div>
+                <p className="font-semibold">Job Booked</p>
+                <p className="text-slate-600">
+                  Appointment scheduled — no phone tag.
+                </p>
               </div>
             </div>
+
+            <div className="bg-slate-50 px-5 py-3 text-xs text-slate-500 text-center">
+              Demo preview of the automated workflow
+            </div>
+
           </div>
         </div>
 
