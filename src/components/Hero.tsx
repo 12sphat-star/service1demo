@@ -17,7 +17,7 @@ export default function Hero({
     <section className="relative bg-white">
       <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
-        {/* LEFT: Copy */}
+        {/* LEFT SIDE: COPY */}
         <div>
           <span className="inline-block mb-4 text-sm font-semibold text-blue-600 uppercase tracking-wide">
             AI-Powered Service Business Website
@@ -32,7 +32,7 @@ export default function Hero({
             answer customers instantly, and book jobs automatically — powered by AI.
           </p>
 
-          {/* CTA Buttons */}
+          {/* CTA BUTTONS */}
           <div className="flex flex-wrap gap-4">
             <button
               onClick={onAI}
@@ -54,10 +54,17 @@ export default function Hero({
             >
               📅 Book a Free Consultation
             </button>
+
+            <a
+              href="/example-site"
+              className="px-6 py-3 text-base font-medium text-slate-700 hover:underline"
+            >
+              👀 View Example Website
+            </a>
           </div>
         </div>
 
-        {/* RIGHT: Visual Placeholder */}
+        {/* RIGHT SIDE: VISUAL PLACEHOLDER */}
         <div className="relative">
           <div className="rounded-xl border border-slate-200 shadow-lg bg-slate-50 p-6">
             <div className="space-y-4">
