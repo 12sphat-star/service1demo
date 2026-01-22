@@ -1,14 +1,13 @@
 export default function ExampleSite() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
-      
-      {/* Header */}
+
+      {/* Simple Header */}
       <header className="border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
           <div className="text-xl font-bold">
             Example Service Company
           </div>
-
           <div className="flex items-center gap-4">
             <span className="text-sm text-slate-600">(757) 555-0123</span>
             <button className="px-4 py-2 rounded-md bg-slate-900 text-white text-sm">
@@ -18,18 +17,16 @@ export default function ExampleSite() {
         </div>
       </header>
 
-      {/* Hero */}
+      {/* Traditional Hero */}
       <section className="bg-slate-50">
         <div className="max-w-7xl mx-auto px-6 py-24 text-center">
           <h1 className="text-5xl font-bold mb-6">
             Reliable Service You Can Count On
           </h1>
-
           <p className="text-xl text-slate-600 max-w-2xl mx-auto mb-10">
-            Professional, on-time service for residential and commercial
-            customers throughout Hampton Roads.
+            Professional, on-time service for residential and commercial customers
+            throughout Hampton Roads.
           </p>
-
           <div className="flex justify-center gap-4">
             <button className="px-6 py-3 rounded-md bg-slate-900 text-white font-medium">
               Request Service
@@ -47,7 +44,6 @@ export default function ExampleSite() {
           <h2 className="text-4xl font-bold text-center mb-16">
             Our Services
           </h2>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {[
               "Emergency Service",
@@ -71,19 +67,16 @@ export default function ExampleSite() {
         </div>
       </section>
 
-      {/* About / Trust */}
+      {/* Trust / About */}
       <section className="bg-slate-50 py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Local. Professional. Trusted.
           </h2>
-
           <p className="text-lg text-slate-600 mb-10">
             Locally owned and operated, we proudly serve homeowners and businesses
-            throughout Hampton Roads. Our team is committed to quality work,
-            clear communication, and dependable service.
+            throughout Hampton Roads with dependable service.
           </p>
-
           <div className="flex justify-center gap-8 text-sm font-medium text-slate-700">
             <span>✔ Licensed & Insured</span>
             <span>✔ Experienced Technicians</span>
@@ -93,65 +86,14 @@ export default function ExampleSite() {
       </section>
 
       {/* Service Area */}
-      <section className="py-24">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-8">
-            Proudly Serving Hampton Roads
-          </h2>
-
-          <p className="text-slate-600 mb-6">
-            Virginia Beach · Norfolk · Chesapeake · Portsmouth · Suffolk ·
-            Hampton · Newport News
-          </p>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section className="bg-slate-900 text-white py-24">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16">
-          
-          <div>
-            <h2 className="text-4xl font-bold mb-6">
-              Request Service
-            </h2>
-
-            <p className="text-slate-300 mb-6">
-              Contact us today to schedule service or request an estimate.
-            </p>
-
-            <p className="text-slate-300">
-              📞 (757) 555-0123<br />
-              ✉ info@examplecompany.com<br />
-              🕘 Mon–Fri: 8am–6pm
-            </p>
-          </div>
-
-          <div className="bg-white rounded-lg p-8 text-slate-900">
-            <form className="space-y-4">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full border border-slate-300 rounded-md px-4 py-3"
-              />
-              <input
-                type="text"
-                placeholder="Phone Number"
-                className="w-full border border-slate-300 rounded-md px-4 py-3"
-              />
-              <textarea
-                placeholder="How can we help?"
-                className="w-full border border-slate-300 rounded-md px-4 py-3 h-32"
-              />
-              <button
-                type="button"
-                className="w-full bg-slate-900 text-white py-3 rounded-md font-medium"
-              >
-                Request Service
-              </button>
-            </form>
-          </div>
-
-        </div>
+      <section className="py-20 text-center">
+        <h2 className="text-3xl font-bold mb-4">
+          Proudly Serving Hampton Roads
+        </h2>
+        <p className="text-slate-600">
+          Virginia Beach · Norfolk · Chesapeake · Portsmouth · Suffolk ·
+          Hampton · Newport News
+        </p>
       </section>
 
       {/* Footer */}

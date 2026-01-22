@@ -26,13 +26,55 @@ export default function Hero({
           </span>
 
           <h1 className="text-5xl font-bold text-slate-900 leading-tight mb-6">
-            A Smarter Website for Modern {businessType} Businesses
-          </h1>
+  Never Miss Another Customer — Even When You’re Busy
+</h1>
+         <p className="text-xl text-slate-600 mb-10 max-w-xl">
+  Your AI Attendant answers inquiries instantly, captures leads, and books jobs
+  automatically — so your website works 24/7, even when you can’t.
+</p>
+{/* HOW IT WORKS */}
+<div className="mt-24 max-w-4xl">
+  <h2 className="text-3xl font-bold text-slate-900 mb-8">
+    How the AI Attendant Works
+  </h2>
 
-          <p className="text-xl text-slate-600 mb-10 max-w-xl">
-            Capture more leads, answer customers instantly, and book jobs
-            automatically across {city} — powered by AI.
-          </p>
+  <div className="space-y-6 text-lg text-slate-600">
+    <div>
+      <strong className="text-slate-900">Step 1 – Customers Reach Out</strong>
+      <p>
+        Customers message your website or request service — day or night.
+      </p>
+    </div>
+
+    <div>
+      <strong className="text-slate-900">Step 2 – AI Responds Instantly</strong>
+      <p>
+        The AI Attendant answers common questions, confirms service areas,
+        and gathers contact details automatically.
+      </p>
+    </div>
+
+    <div>
+      <strong className="text-slate-900">Step 3 – Lead Is Captured</strong>
+      <p>
+        Customer information is saved instantly so nothing slips through the cracks.
+      </p>
+    </div>
+
+    <div>
+      <strong className="text-slate-900">Step 4 – Booking or Follow-Up Happens</strong>
+      <p>
+        Appointments can be booked automatically or routed for follow-up —
+        no phone tag required.
+      </p>
+    </div>
+  </div>
+
+  <p className="mt-10 text-slate-700 font-medium">
+    This is what turns a basic website into a revenue-generating system.
+  </p>
+</div>
+
 
           {/* CTA BUTTONS */}
           <div className="flex flex-wrap gap-4">
