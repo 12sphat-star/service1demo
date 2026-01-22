@@ -105,6 +105,14 @@ export default function Hero({
   >
     👀 View a Typical Service Website
   </Link>
+  <p className="text-sm text-slate-500 max-w-md">
+  Most service businesses stop at a basic website. Everything above this is the
+  system that turns traffic into booked jobs.
+</p>
+<p className="text-xs text-slate-400 mt-2">
+  Demo preview — shows how appointments are booked automatically, not a live calendar.
+</p>
+
 </div>
 
         </div>
